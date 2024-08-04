@@ -1,0 +1,159 @@
+.container {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.header {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.inputGroup {
+  margin-bottom: 10px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  color: lightgrey;
+}
+
+.inputField,
+.textareaField {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #333;
+}
+
+.inputField {
+  height: 40px;
+}
+
+.textareaField {
+  height: 80px;
+  resize: vertical;
+}
+
+.fileInput {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.imagePreview {
+  width: 100%;
+  margin-bottom: 10px;
+  max-height: 100px;
+  object-fit: cover;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.buttonDone {
+  color: white;
+  background-color: #047857;
+  font-weight: 500;
+  border-radius: 10px;
+  font-size: 0.875rem;
+  padding: 0.625rem 1.25rem;
+  text-align: center;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  outline: none;
+}
+
+.buttonDone:hover {
+  background-color: #065f46;
+}
+
+.buttonDone:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(110, 231, 183, 0.5);
+}
+
+.buttonDone.dark {
+  background-color: #065f46;
+}
+
+.buttonDone.dark:hover {
+  background-color: #064e3b;
+}
+
+.buttonDone.dark:focus {
+  box-shadow: 0 0 0 4px rgba(10, 75, 58, 0.5);
+}
+
+.cancelButton {
+  color: white;
+  background-color: #047857;
+  font-weight: 500;
+  border-radius: 10px;
+  font-size: 0.875rem;
+  padding: 0.625rem 1.25rem;
+  text-align: center;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  outline: none;
+}
+
+.cancelButton:hover {
+  background-color: #065f46;
+}
+
+.cancelButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(110, 231, 183, 0.5);
+}
+
+.cancelButton.dark {
+  background-color: #065f46;
+}
+
+.cancelButton.dark:hover {
+  background-color: #064e3b;
+}
+
+.cancelButton.dark:focus {
+  box-shadow: 0 0 0 4px rgba(10, 75, 58, 0.5);
+}
+
+.downloadButton {
+  color: white;
+  background-color: #047857;
+  font-weight: 500;
+  border-radius: 10px;
+  font-size: 0.875rem;
+  padding: 0.625rem 1.25rem;
+  text-align: center;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  outline: none;
+}
+
+.downloadButton:hover {
+  background-color: #065f46;
+}
+
+.downloadButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(110, 231, 183, 0.5);
+}
+

@@ -1,0 +1,44 @@
+[
+  {
+      "id": 1,
+      "title": "Amazing Offer 1",
+      "description": "Grab the latest offers on our new collection. Limited time only!",
+      "cta": "Shop Now",
+      "background": "/images/bannerbot-banner1.png"
+  },
+  {
+      "id": 2,
+      "title": "Exclusive Deal 2",
+      "description": "Don’t miss out on our exclusive deals for this season. Check them out!",
+      "cta": "Learn More",
+      "background": "/images/bannerbot-banner2.png"
+  },
+  {
+      "id": 3,
+      "title": "Summer Sale 3",
+      "description": "Enjoy huge savings on summer essentials. Hurry before it’s gone!",
+      "cta": "Get Started",
+      "background": "/images/bannerbot-banner3.png"
+  },
+  {
+      "id": 4,
+      "title": "New Arrivals 4",
+      "description": "Explore our new arrivals and find something special for you.",
+      "cta": "See More",
+      "background": "/images/bannerbot-banner4.png"
+  },
+  {
+      "id": 5,
+      "title": "Flash Sale 5",
+      "description": "Flash sale on top products! Limited stock available.",
+      "cta": "Buy Now",
+      "background": "/images/bannerbot-banner5.png"
+  },
+  {
+      "id": 6,
+      "title": "Holiday Special 6",
+      "description": "Celebrate the holidays with our special offers and discounts.",
+      "cta": "Discover Offers",
+      "background": "/images/bannerbot-banner6.png"
+  }
+]

@@ -1,0 +1,16 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 16px; 
+    padding-right: 200px; 
+    padding-left: 200px; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    background-color: rgb(113, 187, 236); 
+  }
+  
+  .gridItem {
+   
+    width: 100%;
+  }
+  

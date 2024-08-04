@@ -1,0 +1,36 @@
+.bannerCard {
+  position: relative;
+  width: 100%;
+  height: 400px; 
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.cardMedia {
+  display: none;
+}
+
+.cardContent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  width: 50%;
+  background: rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+}
+
+.title {
+  color: black; 
+  background: rgba(255, 255, 255, 0.8);
+  width: 40%;
+}
+
+.editIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+}
